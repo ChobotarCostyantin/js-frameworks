@@ -13,5 +13,8 @@
   "description": "",
   "devDependencies": {
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "lab_1": "file:"
   }
 }

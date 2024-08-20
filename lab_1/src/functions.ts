@@ -1,4 +1,4 @@
-function greet(name:string, age:number = 20) {
+function greet(name:string, age:number = 20) : void {
     console.log(`Hello, my name is ${name}. I'm ${age} year old.`)
 }
 

@@ -21,12 +21,12 @@ function ice_cream(size: boolean, topping: Set<Toppings>, additive: boolean = fa
 }
 
 function getInputs(): { size: boolean, toppings: Set<Toppings>, additive: boolean } {
-    let sizeInput: string | null = prompt("Pick cup size (big/small):");
+    let sizeInput: string | null = prompt("Pick cup size (large/small):");
     let toppingInput: string | null = prompt("Enter toppings separated with a comma (available: Chocolate, Caramel, Berries):");
     let additiveInput: string | null = prompt("Add marshmallow? (yes/no):");
 
     if (sizeInput && toppingInput && additiveInput) {
-        let size: boolean = sizeInput.trim().toLowerCase() === 'big';
+        let size: boolean = sizeInput.trim().toLowerCase() === 'large';
         let toppings = new Set<Toppings>();
 
         toppingInput.split(',').forEach(t => {

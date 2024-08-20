@@ -20,11 +20,11 @@ function ice_cream(size, topping, additive = false) {
     return price;
 }
 function getInputs() {
-    let sizeInput = prompt("Pick cup size (big/small):");
+    let sizeInput = prompt("Pick cup size (large/small):");
     let toppingInput = prompt("Enter toppings separated with a comma (available: Chocolate, Caramel, Berries):");
     let additiveInput = prompt("Add marshmallow? (yes/no):");
     if (sizeInput && toppingInput && additiveInput) {
-        let size = sizeInput.trim().toLowerCase() === 'big';
+        let size = sizeInput.trim().toLowerCase() === 'large';
         let toppings = new Set();
         toppingInput.split(',').forEach(t => {
             t = t.trim().toLowerCase();
