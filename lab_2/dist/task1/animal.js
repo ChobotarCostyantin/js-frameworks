@@ -35,9 +35,9 @@ var Fish = /** @class */ (function () {
     };
     return Fish;
 }());
-var gato = new Cat({ name: 'Gato', age: 2, weight: 5 });
+var gato = new Cat({ name: 'Gato', age: 5, weight: 5 });
 gato.walk();
-var borb = new Bird({ name: 'Borb', age: 10, weight: 0.2 });
+var borb = new Bird({ name: 'Borb', age: 1, weight: 0.2 });
 borb.fly();
-var feesh = new Fish({ name: 'Feesh', age: 1, weight: 0.1 });
+var feesh = new Fish({ name: 'Feesh', age: 2, weight: 0.1 });
 feesh.swim();
