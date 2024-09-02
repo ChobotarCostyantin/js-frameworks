@@ -2,9 +2,9 @@ interface Animal {
     name: string;
     age: number;
     weight: number;
-    walk?(): void;
-    fly?(): void;
-    swim?(): void;
+    walk?:() => void;
+    fly?:() => void;
+    swim?:() => void;
 }
 class Cat implements Animal {
     name: string;
