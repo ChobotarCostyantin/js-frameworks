@@ -4,7 +4,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "serve": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
