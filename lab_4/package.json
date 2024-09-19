@@ -23,6 +23,7 @@
     "webpack-dev-server": "^5.1.0"
   },
   "dependencies": {
-    "lab-app": "file:"
+    "lab-app": "file:",
+    "prettier": "^3.3.3"
   }
 }
